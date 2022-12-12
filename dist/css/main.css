@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #FBAE3C;
+  width: 100%;
+  height: 10vh;
+}
+.header .header__logo {
+  text-align: center;
+  margin-top: 15px;
+}
+.header .header__logo a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.header .header__logo span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.header .header__btn {
+  text-align: right;
+  margin-top: 15px;
+}
+.header .header__btn a {
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.banner {
+  background: url(/scss/Image/blob-scene-haikei.svg) no-repeat center;
+  padding: 120px 0;
+  background-size: cover;
+  width: 100vw;
+}
+.banner__content {
+  color: #fff;
+}
+.banner__content__heading {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.banner__content__paragraph {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.banner__content .button a {
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+.login__form__wrap .login__form__inner {
+  width: 90vw;
+  height: auto;
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #001220;
+}
+.login__form__wrap .login__form__inner__heading {
+  text-align: center;
+  color: #fff;
+}
+.login__form__wrap .login__form__inner input {
+  display: block;
+  width: 80vw;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  box-shadow: 2px 2px 5px #00bcd4;
+}
+.login__form__wrap .login__form__inner__btn {
+  text-align: center;
+}
+.login__form__wrap .login__form__inner__btn button {
+  width: 87%;
+  margin: 10px 25px 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #2196f3;
+  color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: block;
+}
+
+.footer {
+  background: #2c3e50;
+  color: #fff;
+}
+.footer hr {
+  margin: 10px 0;
+}
+.footer .footer__logo {
+  margin-top: 15px;
+}
+.footer .footer__logo a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.footer .footer__logo span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer .social__menu ul {
+  text-align: left;
+  padding: 0;
+}
+.footer .social__menu ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer .social__menu ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+.footer .social__menu ul li a span {
+  margin-left: 10px;
+}
+.footer .contact ul {
+  text-align: left;
+  padding: 0;
+}
+.footer .contact ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.footer .contact ul li span {
+  margin-left: 10px;
+}
+.footer .copyright__text {
+  text-align: center;
+}
+.footer .copyright__text p {
+  margin: 5px 0;
+}/*# sourceMappingURL=main.css.map */
